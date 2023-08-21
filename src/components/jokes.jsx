@@ -3,7 +3,7 @@ import '../styles/joke.css';
 
 const Jokes = () => {
   const [lists, setLists] = useState([]);
-  const [show, setShow] = useState(null);
+  const [show, setShow] = useState(null); // This is typically used when you don't have a specific initial value(could be obj or arr).
   const [showDiv, setShowDiv] = useState(false);
 
   useEffect(() => {
@@ -34,7 +34,7 @@ const Jokes = () => {
 
   return (
     <div className="jokes">
-      <h1>Chuck Norris</h1>
+      <h1>The Joke Machine</h1>
       <div className="list">
         {lists.map((x) => (
           <div className="container" onClick={() => handleclick(x)} key={x}>
@@ -45,7 +45,10 @@ const Jokes = () => {
       </div>
       {showDiv && <div className="my-div">
       <div className="details">
-        {show && (
+        {show && (// show is boolean var if true display div
+// The expression before && is evaluated.
+// If the expression evaluates to a truthy value, the JSX after && is rendered.
+// If the expression evaluates to a falsy value, the JSX after && is skipped and not rendered.
           <div className="data">
             <div className="box">
             <h2>{show.categories}</h2>
