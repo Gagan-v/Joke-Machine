@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Joke-Machine/static/css/main.e71af679.css",
+    "main.js": "/Joke-Machine/static/js/main.3c9425b9.js",
+    "static/js/787.383600ce.chunk.js": "/Joke-Machine/static/js/787.383600ce.chunk.js",
+    "index.html": "/Joke-Machine/index.html",
+    "main.e71af679.css.map": "/Joke-Machine/static/css/main.e71af679.css.map",
+    "main.3c9425b9.js.map": "/Joke-Machine/static/js/main.3c9425b9.js.map",
+    "787.383600ce.chunk.js.map": "/Joke-Machine/static/js/787.383600ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e71af679.css",
+    "static/js/main.3c9425b9.js"
+  ]
+}
